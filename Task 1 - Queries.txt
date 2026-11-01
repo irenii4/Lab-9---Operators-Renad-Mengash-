@@ -1,0 +1,16 @@
+55 ?- consult(['c:/Users/renad/Downloads/boolean.pl']).
+true.
+
+56 ?- boolean(true, true, R).
+R = true.
+
+57 ?- boolean(true, false, R).
+R = false.
+
+58 ?- boolean(false, true, R).
+R = false.
+
+59 ?- boolean(false, false, R).
+R = true.
+
+60 ?- 

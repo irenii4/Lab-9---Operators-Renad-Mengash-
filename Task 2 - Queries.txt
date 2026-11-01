@@ -1,0 +1,10 @@
+60 ?- consult(['c:/Users/renad/Downloads/Task2.pl']).
+true.
+
+61 ?- sumlist([1,2,5,7], Sum).
+Sum = 15.
+
+62 ?- sumlist([], Sum).
+Sum = 0.
+
+63 ?- 

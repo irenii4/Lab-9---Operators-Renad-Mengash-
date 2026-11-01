@@ -1,0 +1,21 @@
+
+65 ?- consult(['c:/Users/renad/Downloads/Task3.pl']).
+true.
+
+66 ?- total_average.
+Enter the first number: 10.
+Enter the second number: |: 20.
+Enter the third number: |: 30.
+Total = 60
+Average = 20
+true.
+
+67 ?- total_average.
+Enter the first number: 5.
+Enter the second number: |: 7.
+Enter the third number: |: 10.
+Total = 22
+Average = 7.333333333333333
+true.
+
+67 ?- 
